@@ -1,0 +1,211 @@
+.main-date-logo, .main-date-hour, .main-date-location, .main-date-wp {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.icon-date {
+  font-size: 2rem;
+    margin-right: 1rem;
+    color: var(--main-color);
+    /* font-weight: bold; */
+}
+
+.main-date-logo p, .main-date-hour p, .main-date-location p, .main-date-wp p {
+  margin: 0;
+  font-size: .8rem;
+  font-family: var(--main-font);
+  line-height: 1.4;
+}
+
+.main-date-wp {
+  /* padding: 1rem; */
+  background-color: #69b302;
+  color: #fff;
+  /* font-weight: bold; */
+  max-width: 220px;
+}
+
+.flaticon-whatsapp {
+  animation: icon-action 2s linear infinite alternate;
+}
+
+.bo-call {
+  font-weight: bold;
+}
+
+.top-white {
+  background: white;
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+
+.hero {
+  max-height: 700px;
+  /* width: 100%; */
+    height: 700px;
+    /* background-position: left; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-form-p {
+  background-color: var(--main-color);
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1.5rem 2rem 1.5rem;
+  color: white;
+}
+
+.pt_hero {
+  padding-top: 100px;
+}
+.pt_hero_b {
+  padding-top: 20px;
+}
+
+.contact-f {
+  color: white;
+}
+
+.full input {
+  width: 100%;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  display: block;
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    color: #fff;
+    outline: none;
+}
+
+.full textarea {
+  width: 100%;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  display: block;
+    width: 100%;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    color: #fff;
+    outline: none;
+}
+
+.full button {
+  /* width: 30%; */
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  padding: 0 1rem 0 1.2rem;
+  border-radius: 2px;
+}
+
+.full-btn {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
+.full-btn button {
+  background-color: #69b302;
+  color: white;
+  border: 1px solid #69b302;
+}
+
+input::placeholder {
+  color:white;
+}
+textarea::placeholder {
+  color:white;
+}
+
+.info-principal {
+  color: white;
+}
+.info-principal h1{
+  text-shadow: 3px 3px 2px rgb(34, 34, 34);
+   color: #fff;
+}
+
+.descrip span {
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+   color: #fff;
+}
+.info-principal li{
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.title-p  {
+  text-transform: uppercase;
+  
+}
+
+.main-location,
+.main-phone,
+.main-email {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.main-location [class^="flaticon"],
+.main-phone [class^="flaticon"],
+.main-email [class^="flaticon"] {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-right: 1.5rem;
+  font-size: 2.4rem;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid #999; 
+  border-bottom: 2px solid #69b302;
+  height:0;
+  }
+
+@media (max-width: 576px) {
+  .movil-none {
+    display: none;
+  }
+  .hero {
+    margin-bottom: 10px;
+    height: 1000px !important;
+    max-height: 1000px !important;
+  }
+  .movil-contac {
+    text-align: center;
+  }
+  .copy p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  .movil-contac {
+    display: none;
+  }
+}

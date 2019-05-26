@@ -1,182 +1,284 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="ccs/index.css">
+  <!-- Bootstrap CSS -->
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="logo">
-      <div class="row">
-        <div class="col-3 text-center">
-          <h1>CP-MATE</h1>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="assets/font/flaticon.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="top-white fixed-top">
+    <div class="row mt-2 mb-2">
+      <div class="col-md-3 col-12 text-center ">
+        <h1>CP-MATE</h1>
+      </div>
+      <div class="col-3 movil-none">
+        <a href="mailto:gerenci@aviiperu.com" class="main-date-hour">
+          <i class="icon-date flaticon-correo"></i>
+          <div class="box-hour">
+            <p>Correo Electrónico</p>
+            <p>info@Profesor-de-matematicas.com</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-3 movil-none">
+        <div class="main-date-location">
+          <i class="icon-date flaticon-marcador"></i>
+          <div class="box-location">
+            <!-- <p>Ate Vitarte</p> -->
+            <p>Lima Perú</p>
+            <p>Jiron Manuel Segura 142 Oficina 304 – Lince</p>
+          </div>
         </div>
-        <div class="col-3">
-          <p>Correo Eléctronico <br>info@profesores-de-matematicas.com</p>
-        </div>
-        <div class="col-3">
-          <p>Lima Perú <br>Jr. Manuel Segura 142 Ofic. 304 - Lince</p>
-        </div>
-        <div class="col-3">WhatsApp<br>(+51)940 536 570</div>
+      </div>
+      <div class="col-3 wp movil-none ">
+        <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=51940536750&text=hola%20quiero%20mas%20informacion%20de%20clases%20particulares%20de%20matematicas&source=&data=">
+          <div class="main-date-wp">
+            <i class="icon-date flaticon-whatsapp"></i>
+            <div class="bo-call">
+              <p>WhtapApp</p>
+              <p>(+51) 940 536 570</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
-
-    <main id="main">
-      <div class="hero" style="background-image: url(../assets/images/adminF1.png)">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
+  </div>
+  <main id="main">
+    <div class="hero mb-4" style="background-image: url(assets/images/profesora-nino2.jpg)">
+      <div class="container">
+        <!-- <nav class="navbar navbar-expand-lg">
                 
                   <a class="navbar-brand" href="https://institutojuridico.edu.pe">
                     <img src="../../assets/images/logo_ilcj_white_70.png" alt="ilcj logo">
                   </a>
                
-              </nav>
+              </nav> -->
         <div class="row align-items-center pt_hero">
-          <div class="col-12 col-md-7">
-            <h1>Clases Particulares de Matemáticas</h1>
-            <ol>
-              <li>Clases Personalizadas a Domicilio</li>
-              <li>Profesores de la UNI y San Marcos</li>
-              <li>Éxito Garantizado: Más del 90% mejora en las calificaciones</li>
-              <li>Seguimiento Personalizado Plan de Estudios a Medida</li>
+          <div class="col-12 col-md-7 info-principal">
+            <h1 class="title-p">Clases Particulares <br> de Matemáticas</h1>
+            <ol class="descrip">
+              <li><span>• Clases Personalizadas a Domicilio</span> </li>
+              <li><span>• Profesores de la UNI y San Marcos</span> </li>
+              <li><span>• Éxito Garantizado: Más del 90% mejora en las calificaciones</span></li>
+              <li><span>• Seguimiento Personalizado Plan de Estudios a Medida</span></li>
             </ol>
-          
-            <div class="row btn-inicio">
-              <button>Consultar por WhatsApp</button>
+
+            <div class="row full full-btn">
+              <a href="https://api.whatsapp.com/send?phone=51940536750&text=hola%20quiero%20mas%20informacion%20de%20clases%20particulares%20de%20matematicas&source=&data="">
+                <button>Consultar por WhatsApp<i class=" flaticon-whatsapp"></i> </button>
+              </a>
             </div>
           </div>
-        
-            <div class="contact col-12 col-md-5 cont-form">
-              <h3>Contáctenos</h3>
-              <div class="alert">Su mensaje a sido enviado</div>
-              <form id="contactForm">
-                <p>
-                  <label>Nombre</label>
-                  <input type="text" name="name" id="name" required>
-                </p>
-                <p>
-                  <label>Email</label>
-                  <input type="email" name="email" id="email" required>
-                </p>
-                <p>
-                  <label>Teléfono</label>
-                  <input type="text" name="company" id="company">
-                </p>
-                <p>
-                  <label>Asunto</label>
-                  <input type="text" name="phone" id="phone">
-                </p>
-                <p class="full">
-                  <label>Mensaje</label>
-                  <textarea name="message" rows="5" id="message"></textarea>
-                </p>
-                <p class="full">
-                  <button type="submit">Enviar</button>
-                </p>
-              </form>
-            </div>
+
+          <div class="contact col-12 col-md-5 cont-form-p">
+            <h3 class="mb-3">CONTÁCTANOS</h3>
+            <div class="alert">Su mensaje a sido enviado</div>
+            <form id="contactForm">
+              <p class="full">
+
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+              </p>
+              <p class="full">
+
+                <input type="email" name="email" id="email" placeholder="Email" required>
+              </p>
+              <p class="full">
+                <!-- <label>Teléfono</label> -->
+                <input type="tel" name="company" placeholder="Teléfono" id="company">
+              </p>
+              <p class="full">
+                <!-- <label>Asunto</label> -->
+                <input type="text" name="phone" placeholder="Asunto" id="phone">
+              </p>
+              <p class="full">
+                <!-- <label>Mensaje</label> -->
+                <textarea name="message" rows="5" placeholder="Mensaje" id="message"></textarea>
+              </p>
+
+              <p class="full full-btn">
+                <button type="submit">Enviar Mensaje</button>
+              </p>
+            </form>
+
+
+          </div>
 
         </div>
-
       </div>
     </div>
-    </div>
+
   </main>
 
   <div class="container">
-  <div class="row">
-      <div class="col-3">
+    <div class="row mt-4">
+      <div class="col-md-3 col-12">
         <div class="card" ">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            <img src=" assets/images/profesora-de-primaria-con-nino.png" class="card-img-top" alt="...">
+          <div class="hr"></div>
+          <div class="card-body">
+            <h5 class="card-title">Matemáticas para Niños Primaria y Secundaria</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
+        </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12 mt-3 ">
         <div class="card" ">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            <img src=" assets/images/adolescente.png" class="card-img-top" alt="...">
+          <div class="hr"></div>
+          <div class="card-body">
+            <h5 class="card-title">Matemáticas para Pre Universitarios</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
+        </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12 mt-3">
         <div class="card" ">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            <img src=" assets/images/unversitario.png" class="card-img-top" alt="...">
+          <div class="hr"></div>
+          <div class="card-body">
+            <h5 class="card-title">Matemáticas para Univeritarios</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
+        </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12 mt-3">
         <div class="card" ">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            <img src=" assets/images/profesional.png" class="card-img-top" alt="...">
+          <div class="hr"></div>
+          <div class="card-body">
+            <h5 class="card-title">Matemáticas para Profesionales</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
+        </div>
       </div>
-      
+
     </div>
   </div>
-  <footer>
-    <div class="container">
-        <div class="row">
-            <div class="contact col-12 col-md-6 cont-form">
-                <h3>Contáctenos</h3>
-                <div class="alert">Su mensaje a sido enviado</div>
-                <form id="contactForm">
-                  <p>
-                    <label>Nombre</label>
-                    <input type="text" name="name" id="name" required>
-                  </p>
-                  <p>
-                    <label>Email</label>
-                    <input type="email" name="email" id="email" required>
-                  </p>
-                  <p>
-                    <label>Teléfono</label>
-                    <input type="text" name="company" id="company">
-                  </p>
-                  <p>
-                    <label>Asunto</label>
-                    <input type="text" name="phone" id="phone">
-                  </p>
-                  <p class="full">
-                    <label>Mensaje</label>
-                    <textarea name="message" rows="5" id="message"></textarea>
-                  </p>
-                  <p class="full">
-                    <button type="submit">Enviar</button>
-                  </p>
-                </form>
+  <div class="contacto">
+    <div class="hero mb-4" style="background-image: url(assets/images/footer-2.png)">
+      <div class="container">
+        <!-- <nav class="navbar navbar-expand-lg">
+                  
+                    <a class="navbar-brand" href="https://institutojuridico.edu.pe">
+                      <img src="../../assets/images/logo_ilcj_white_70.png" alt="ilcj logo">
+                    </a>
+                 
+                </nav> -->
+        <div class="row align-items-center pt_hero_b mt-4">
+          <div class="contact col-12 col-md-7 cont-form-p">
+            <h2 class="mb-3">¡CONTÁCTENOS!<br>SATISFACCIÓN GARANTIZADA</h2>
+            <h6 class="mb-3">Contamos con profesores especializados en docencia y matemáticas. Capacitados con
+              metodología eficaces para el aprendizaje acelerado. </h6>
+            <div class="alert">Su mensaje a sido enviado</div>
+            <form id="contactForm">
+              <p class="full">
+
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+              </p>
+              <p class="full">
+
+                <input type="email" name="email" id="email" placeholder="Email" required>
+              </p>
+              <p class="full">
+                <!-- <label>Teléfono</label> -->
+                <input type="tel" name="company" placeholder="Teléfono" id="company">
+              </p>
+              <p class="full">
+                <!-- <label>Asunto</label> -->
+                <input type="text" name="phone" placeholder="Asunto" id="phone">
+              </p>
+              <p class="full">
+                <!-- <label>Mensaje</label> -->
+                <textarea name="message" rows="5" placeholder="Mensaje" id="message"></textarea>
+              </p>
+
+              <p class="full full-btn">
+                <button type="submit">Enviar Mensaje</button>
+              </p>
+            </form>
+          </div>
+          <div class="col-12 col-md-5 contact-f">
+            <article>
+              <div class="main-location">
+                <i class="flaticon-marcador"></i>
+                <div>
+                  <p>Lima Perú</p>
+                  <p>Jiron Manuel Segura 142 Oficina 304 – Lince</p>
+                </div>
               </div>
+              <div class="main-phone">
+                <i class="flaticon-telefono"></i>
+                <div>
+                  <p>(+51) 940 536 570</p>
+                  <p>(+51) 989 830 042</p>
+                </div>
+              </div>
+              <div class="main-email">
+                <i class="flaticon-correo"></i>
+                <div>
+                  <p><a href="mailto:gerencia@aviiperu.com">info@Profesor-de-matematicas.com</a></p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
+      </div>
     </div>
-    
-  </footer>
-  
+
+    <div class="row ">
+      <div class="col-4 movil-contac">
+        WhatsApp
+      </div>
+      <div class="col-4 movil-contac">
+        Email
+      </div>
+      <div class="col-4 movil-contac">
+        Ubicación
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container copy">
+
+        <p>© Copyright 2019 INSTITUTO ILCJ - Todos los derechos reservados.</p>
+
+      </div>
+    </footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
