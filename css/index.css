@@ -187,6 +187,26 @@ textarea::placeholder {
   height:0;
   }
 
+  h5 {
+    font-size: 1.2rem !important;
+  }
+
+  .flaticon-whatsapp {
+    animation: flaticon-whatsapp 1s linear infinite alternate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: flaticon-whatsapp;
+  }
+
+  .copy p {
+    font-size: 14px;
+  }
+
 @media (max-width: 576px) {
   .movil-none {
     display: none;
@@ -199,9 +219,7 @@ textarea::placeholder {
   .movil-contac {
     text-align: center;
   }
-  .copy p {
-    font-size: 14px;
-  }
+  
 }
 
 @media (min-width: 576px) {
